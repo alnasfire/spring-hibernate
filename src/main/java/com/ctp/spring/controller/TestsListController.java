@@ -10,8 +10,8 @@ import java.io.IOException;
 @Controller
 public class TestsListController {
 
-    @RequestMapping(value="/testsList")
+    @RequestMapping(value="/testslist")
     public ModelAndView test(HttpServletResponse response) throws IOException {
-        return new ModelAndView("testsList");
+        return new ModelAndView("testslist");
     }
 }

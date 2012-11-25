@@ -11,15 +11,7 @@
 <body>
 <script type="text/javascript">
     function logon() {
-        var form = this.parentNode
-//        var login = document.getElementsByName("[login]")
-//        var password = document.getElementsByName("[password]")
-//        if(login != ""){
-            this.show("http://localhost:8080/testsList.jsp")
-//        } else {
-//            this.show("http://localhost:8080")
-//        }
-        form.submit()
+        alert(document.getElementById("login"))
     }
 </script>
 <div id="up">
@@ -33,21 +25,21 @@
     </table>
 </div>
 <div id="left" align="left">
-    <form action="http://localhost:8080" method="GET">
+    <form action="/testslist" method="GET">
         <table>
             <tr>
                 <td><b>Login</b></td>
-                <td><input type="text" name="login" size="18"/></td>
+                <td><input type="text" id="login" size="18"/></td>
             </tr>
 
             <tr>
                 <td><b>Password</b></td>
-                <td><input type="password" name="password" size="18"/></td>
+                <td><input type="password" id="password" size="18"/></td>
             </tr>
 
             <tr>
                 <td/>
-                <td><button onclick="logon()">sign in</button>
+                <td><button onclick="logon()">Sign in</button>
                     <a href="registerUser">Register</a></td>
             </tr>
         </table>

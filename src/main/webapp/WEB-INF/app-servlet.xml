@@ -27,6 +27,7 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
 
     <bean id="registerUser" class="com.ctp.spring.controller.RegisterUserController"/>
     <bean id="home" class="com.ctp.spring.controller.HomeController"/>
+    <bean id="testslist" class="com.ctp.spring.controller.TestsListController"/>
     <bean id="proc" class="com.ctp.spring.controller.ProcController">
         <property name="userService" ref="userServiceImpl"/>
     </bean>

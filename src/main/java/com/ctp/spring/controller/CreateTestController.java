@@ -8,9 +8,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Controller
-public class PassedTestController {
-    @RequestMapping(value="/passedtest")
+public class CreateTestController {
+    @RequestMapping(value="/createtest")
     public ModelAndView test(HttpServletResponse response) throws IOException {
-        return new ModelAndView("passedtest");
+        return new ModelAndView("createtest");
     }
 }

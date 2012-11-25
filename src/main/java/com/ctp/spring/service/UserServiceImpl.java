@@ -2,14 +2,15 @@ package com.ctp.spring.service;
 
 import com.ctp.spring.dao.UserDAOImpl;
 import com.ctp.spring.domain.User;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class UserServiceImpl implements UserService {
 
-//    @Autowired
-    private UserDAOImpl userDAOImpl = new UserDAOImpl();
+    @Autowired
+    private UserDAOImpl userDAOImpl;
 
     @Transactional
     public void saveUser(User user) {
@@ -35,4 +36,12 @@ public class UserServiceImpl implements UserService {
 //    public List<User> findUsersByName(String name){
 //    	return userDAOImpl.findUsersByName( name );
 //    }
+
+    public void setUserDAOImpl(UserDAOImpl userDAOImpl) {
+        this.userDAOImpl = userDAOImpl;
+    }
+
+    public UserDAOImpl getUserDAOImpl() {
+        return userDAOImpl;
+    }
 }

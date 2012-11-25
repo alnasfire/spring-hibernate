@@ -12,7 +12,12 @@ public class UserDAOImpl implements UserDAO {
     private SessionFactory sessionFactory;
 
     public void saveUser(User user) {
-        sessionFactory.getCurrentSession().saveOrUpdate(user);
+        if (sessionFactory != null){
+            sessionFactory.getCurrentSession().saveOrUpdate(user);
+            System.out.println("ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ");
+        } else {
+            System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+        }
     }
 
 //    @SuppressWarnings("unchecked")
@@ -27,4 +32,12 @@ public class UserDAOImpl implements UserDAO {
 //            sessionFactory.getCurrentSession().delete(user);
 //        }
 //    }
+
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
+
+    public SessionFactory getSessionFactory() {
+        return sessionFactory;
+    }
 }

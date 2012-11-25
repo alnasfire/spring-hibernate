@@ -2,7 +2,8 @@ package com.ctp.spring.controller;
 
 import com.ctp.spring.domain.User;
 import com.ctp.spring.service.UserService;
-import com.ctp.spring.service.UserServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -16,8 +17,9 @@ import java.io.IOException;
 @RequestMapping(value="/proc")
 public class ProcController {
 
-//    @Autowired
-    private UserService userService = new UserServiceImpl();
+    @Qualifier("userServiceImpl")
+    @Autowired
+    private UserService userService;
 
     public ModelAndView test(HttpServletResponse response) throws IOException {
         return new ModelAndView("proc");

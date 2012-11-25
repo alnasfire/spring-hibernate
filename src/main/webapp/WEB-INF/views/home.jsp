@@ -9,6 +9,19 @@
     <title>Home</title>
 </head>
 <body>
+<script type="text/javascript">
+    function logon() {
+        var form = this.parentNode
+//        var login = document.getElementsByName("[login]")
+//        var password = document.getElementsByName("[password]")
+//        if(login != ""){
+            this.show("http://localhost:8080/testsList.jsp")
+//        } else {
+//            this.show("http://localhost:8080")
+//        }
+        form.submit()
+    }
+</script>
 <div id="up">
     <h1 align="center">Personnel testing system</h1>
 </div>
@@ -20,7 +33,7 @@
     </table>
 </div>
 <div id="left" align="left">
-    <form action="" method="GET">
+    <form action="http://localhost:8080" method="GET">
         <table>
             <tr>
                 <td><b>Login</b></td>
@@ -34,7 +47,7 @@
 
             <tr>
                 <td/>
-                <td><input type="submit" value="sign in"/>
+                <td><button onclick="logon()">sign in</button>
                     <a href="registerUser">Register</a></td>
             </tr>
         </table>

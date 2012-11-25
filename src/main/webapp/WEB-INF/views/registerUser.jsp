@@ -9,7 +9,7 @@
     function c_r() {
         if (confirm("Are you ready?")) {
             var form = this.parentNode
-            this.show("http://localhost:8080/proc.jsp")
+            this.show("http://localhost:8080")
             form.submit()
         }
     }

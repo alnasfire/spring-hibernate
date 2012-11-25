@@ -4,8 +4,10 @@
     <title>New user</title>
 </head>
 <body>
-    New user
+    <a href="http://localhost:8080">home</a>
     <br/>
-    Login <p>${param.login}</p>
+    Login ${param.login}
+    Password ${param.password}
+    E-mail ${param.mail}
 </body>
 </html>

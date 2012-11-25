@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c85b0f8a-12bc-41c1-9a78-21ab74e1d73a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/passedTest.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testResult.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testsList.jsp" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\src\main\webapp\WEB-INF\messages\messages_en.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\src\main\webapp\WEB-INF\messages\messages_ru.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\src\main\webapp\WEB-INF\spring\appServlet\servlet-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\src\main\webapp\WEB-INF\spring\root-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\src\main\webapp\WEB-INF\views\menu.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\src\main\webapp\WEB-INF\views\user_edit.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\src\main\webapp\WEB-INF\views\user_form.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\src\main\webapp\WEB-INF\views\user_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\src\main\webapp\WEB-INF\views\users.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\target\spring-1.0.0-BUILD-SNAPSHOT\WEB-INF\messages\messages_en.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\target\spring-1.0.0-BUILD-SNAPSHOT\WEB-INF\messages\messages_ru.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\target\spring-1.0.0-BUILD-SNAPSHOT\WEB-INF\spring\appServlet\servlet-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\target\spring-1.0.0-BUILD-SNAPSHOT\WEB-INF\spring\root-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\target\spring-1.0.0-BUILD-SNAPSHOT\WEB-INF\views\menu.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\target\spring-1.0.0-BUILD-SNAPSHOT\WEB-INF\views\user_edit.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\target\spring-1.0.0-BUILD-SNAPSHOT\WEB-INF\views\user_form.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\target\spring-1.0.0-BUILD-SNAPSHOT\WEB-INF\views\user_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\WORK\git\spring-hibernate\target\spring-1.0.0-BUILD-SNAPSHOT\WEB-INF\views\users.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/proc.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/proc.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerUser.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerUser.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/proc.jsp" afterPath="$PROJECT_DIR$/target/spring-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/proc.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/registerUser.jsp" afterPath="$PROJECT_DIR$/target/spring-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/registerUser.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring-1.0.0-BUILD-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/spring-1.0.0-BUILD-SNAPSHOT/WEB-INF/web.xml" />
     </list>
     <ignored path="spring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,51 +91,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="left-menu.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/left-menu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="23" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grid.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/grid.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="24" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="screen.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/screen.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="24" selection-start="2892" selection-end="2892" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/login/login.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,16 +103,91 @@
       <file leaf-file-name="registerUser.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerUser.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.8461537">
+            <state line="16" column="0" selection-start="434" selection-end="474" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="testResult.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testResult.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="passedTest.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/passedTest.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testsList.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testsList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-servlet.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/app-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="16" selection-start="461" selection-end="461" vertical-scroll-proportion="-2.55">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proc.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/proc.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="16" selection-start="266" selection-end="266" vertical-scroll-proportion="-7.1923075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="74" selection-start="525" selection-end="525" vertical-scroll-proportion="1.1046932">
+            <state line="18" column="74" selection-start="525" selection-end="525" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
@@ -149,12 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TetsThemeDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TetsResultService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TetsResultServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateService.java" />
@@ -165,6 +216,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/grid.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testResult.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/passedTest.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testsList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/proc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -886,10 +943,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="730" extended-state="1" />
+    <frame x="-4" y="-4" width="1288" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14042208" sideWeight="0.6041667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14042208" sideWeight="0.5503472" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -906,11 +963,11 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2564935" sideWeight="0.21006945" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25811687" sideWeight="0.24131945" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14853896" sideWeight="0.7135417" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14853896" sideWeight="0.5503472" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2564935" sideWeight="0.6041667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2564935" sideWeight="0.5503472" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26041666" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39583334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4496528" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1009,55 +1066,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestThemeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestThemeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="68" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.05610561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TetsResultService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="34" selection-start="50" selection-end="67" vertical-scroll-proportion="0.11221122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TetsResultServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.05263158">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.05263158">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.05263158">
@@ -1107,18 +1115,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerUser.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.8461537">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testResult.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/passedTest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/testsList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="74" selection-start="525" selection-end="525" vertical-scroll-proportion="1.1046932">
+        <state line="18" column="74" selection-start="525" selection-end="525" vertical-scroll-proportion="-11.769231">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="434" selection-end="474" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/proc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="266" selection-end="266" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="461" selection-end="461" vertical-scroll-proportion="-2.55">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/app-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

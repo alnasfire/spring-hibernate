@@ -1,4 +1,7 @@
 package com.ctp.spring.service;
 
-public class SectionServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class SectionServiceImpl implements SectionService{
 }

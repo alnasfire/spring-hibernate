@@ -1,4 +1,7 @@
 package com.ctp.spring.dao;
 
-public class RoleDAOImpl {
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class RoleDAOImpl implements RoleDAO{
 }

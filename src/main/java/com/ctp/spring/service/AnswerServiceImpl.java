@@ -2,9 +2,11 @@ package com.ctp.spring.service;
 
 import com.ctp.spring.domain.Answer;
 import com.ctp.spring.domain.User;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class AnswerServiceImpl implements AnswerService{
     @Override
     public void saveAnswer(Answer answer) {

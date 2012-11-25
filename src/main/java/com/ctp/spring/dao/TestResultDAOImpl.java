@@ -1,4 +1,7 @@
 package com.ctp.spring.dao;
 
-public class TestResultDAOImpl {
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class TestResultDAOImpl implements TestResultDAO{
 }

@@ -1,7 +1,9 @@
 package com.ctp.spring.dao;
 
 import com.ctp.spring.domain.Answer;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class AnswerDAOImpl implements AnswerDAO{
     @Override
     public void saveAnsver(Answer answer) {

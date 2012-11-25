@@ -11,7 +11,7 @@
 <body>
 <script type="text/javascript">
     function logon() {
-        alert(document.getElementById("login"))
+        alert(document.getElementByIdName("login"))
     }
 </script>
 <div id="up">
@@ -29,12 +29,12 @@
         <table>
             <tr>
                 <td><b>Login</b></td>
-                <td><input type="text" id="login" size="18"/></td>
+                <td><input type="text" name="login" size="18"/></td>
             </tr>
 
             <tr>
                 <td><b>Password</b></td>
-                <td><input type="password" id="password" size="18"/></td>
+                <td><input type="password" name="password" size="18"/></td>
             </tr>
 
             <tr>

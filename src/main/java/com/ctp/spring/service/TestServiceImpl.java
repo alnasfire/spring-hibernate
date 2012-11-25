@@ -1,4 +1,7 @@
 package com.ctp.spring.service;
 
-public class TestServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class TestServiceImpl implements TestService{
 }

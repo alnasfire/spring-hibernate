@@ -1,4 +1,7 @@
 package com.ctp.spring.service;
 
-public class QuastionServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class QuastionServiceImpl implements QuastionService{
 }

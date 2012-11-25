@@ -1,4 +1,4 @@
 package com.ctp.spring.service;
 
-public class TetsResultServiceImpl {
+public interface TestResultService {
 }

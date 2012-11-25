@@ -3,5 +3,5 @@ package com.ctp.spring.dao;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class SectionDAOImpl implements SectionDAO{
+public class TestThemeDAOImpl implements TestThemeDAO{
 }

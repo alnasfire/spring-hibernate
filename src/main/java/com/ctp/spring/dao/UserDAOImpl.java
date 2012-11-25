@@ -3,17 +3,11 @@ package com.ctp.spring.dao;
 import com.ctp.spring.domain.User;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
-/**
- * 
- * @author ctp.com
- */
 @Repository
 public class UserDAOImpl implements UserDAO {
 
-    @Qualifier("sessionFactory")
     @Autowired
     private SessionFactory sessionFactory;
 

@@ -5,10 +5,8 @@
 </head>
 <body>
 <a href="http://localhost:8080">home</a>
-<li>
-    <i><a href="/test">test 1</a></i><br>
-    <i><a href="/test">test 2</a></i><br>
-    <i><a href="/test">test 2</a></i><br>
-</li>
+<li><a href="/test">test 1</a></li>
+<li><a href="/test">test 2</a></li>
+<li><a href="/test">test 2</a></li>
 </body>
 </html>

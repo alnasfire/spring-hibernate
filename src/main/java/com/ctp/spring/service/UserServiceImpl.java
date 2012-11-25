@@ -2,15 +2,14 @@ package com.ctp.spring.service;
 
 import com.ctp.spring.dao.UserDAOImpl;
 import com.ctp.spring.domain.User;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Autowired
-    private UserDAOImpl userDAOImpl;
+//    @Autowired
+    private UserDAOImpl userDAOImpl = new UserDAOImpl();
 
     @Transactional
     public void saveUser(User user) {

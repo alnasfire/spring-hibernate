@@ -25,7 +25,7 @@
                 <tr>
                     <td/>
                     <td><input type="submit" value="sign in" />
-                    <a href="test">Register</a></td>
+                    <a href="registerUser">Register</a></td>
                 </tr>
             </table>
         </form>

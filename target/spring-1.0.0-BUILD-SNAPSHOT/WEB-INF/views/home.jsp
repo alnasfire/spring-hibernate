@@ -1,11 +1,33 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page session="false"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
-<head>
-<title>Home</title>
-</head>
-<body>
-	<jsp:include flush="false" page="menu.jsp" />
-	<h2>Home page ${user.name}</h2>
-</body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+        <h1 align="center">Personnel testing system</h1>
+        <form action="" method="GET">
+            <table>
+                <tr>
+                    <td><b>Login</b> </td>
+                    <td><input type="text" name="login" size="18"/></td>
+                </tr>
+
+                <tr>
+                    <td><b>Password</b></td>
+                    <td><input type="password" name="password" size="18"/></td>
+                </tr>
+
+                <tr>
+                    <td/>
+                    <td><input type="submit" value="sign in" />
+                    <a href="test">Register</a></td>
+                </tr>
+            </table>
+        </form>
+    </body>
 </html>

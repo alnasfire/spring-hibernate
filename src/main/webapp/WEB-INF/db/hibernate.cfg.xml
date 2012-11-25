@@ -5,7 +5,14 @@
 
 <hibernate-configuration>
     <session-factory>
-        <mapping class="com.seostella.spring.domain.user.User" />
-        <mapping class="com.seostella.spring.domain.Country" />
+        <mapping class="com.ctp.spring.domain.User" />
+        <mapping class="com.ctp.spring.domain.Answer" />
+        <mapping class="com.ctp.spring.domain.Quastion" />
+        <mapping class="com.ctp.spring.domain.Test" />
+        <mapping class="com.ctp.spring.domain.TestResult" />
+        <mapping class="com.ctp.spring.domain.TestState" />
+        <mapping class="com.ctp.spring.domain.Role" />
+        <mapping class="com.ctp.spring.domain.Section" />
+        <mapping class="com.ctp.spring.domain.Theme" />
     </session-factory>
 </hibernate-configuration>

@@ -15,7 +15,7 @@ public class User {
     @Column(name = "password")
     private String password;
     @Column(name = "role")
-    private int role;
+    private int role = 3;
     @Column(name="email")
     private String email;
 

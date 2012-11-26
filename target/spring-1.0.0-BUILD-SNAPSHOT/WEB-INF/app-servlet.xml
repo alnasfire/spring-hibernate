@@ -14,6 +14,7 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
     <context:component-scan base-package="com.ctp.spring.dao.*"/>
 
     <import resource="db/db-config.xml" />
+    <import resource="beans.xml" />
     <!-- Enables the Spring MVC @Controller programming model -->
     <mvc:annotation-driven/>
 
@@ -25,10 +26,6 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <bean id="registerUser" class="com.ctp.spring.controller.RegisterUserController"/>
-    <bean id="home" class="com.ctp.spring.controller.HomeController"/>
-    <bean id="testslist" class="com.ctp.spring.controller.TestsListController"/>
-    <bean id="test" class="com.ctp.spring.controller.TestController"/>
     <bean id="proc" class="com.ctp.spring.controller.ProcController">
         <property name="userService" ref="userServiceImpl"/>
     </bean>

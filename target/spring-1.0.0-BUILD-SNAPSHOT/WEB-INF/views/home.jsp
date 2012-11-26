@@ -7,6 +7,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Home</title>
+    <LINK REL=STYLESHEET HREF="css/style.css" TYPE="text/css">
 </head>
 <body>
 <script type="text/javascript">
@@ -40,7 +41,7 @@
             <tr>
                 <td/>
                 <td><button onclick="logon()">Sign in</button>
-                    <a href="registerUser">Register</a></td>
+                    <%--<a href="registerUser">Register</a></td>--%>
             </tr>
         </table>
     </form>

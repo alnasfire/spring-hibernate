@@ -4,31 +4,9 @@
     <list default="true" id="c85b0f8a-12bc-41c1-9a78-21ab74e1d73a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/AnswerDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/AnswerDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/AnswerDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/AnswerDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/QuastionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/QuastionDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/QuastionDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/QuastionDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/RoleDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/RoleDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/RoleDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/RoleDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/SectionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/SectionDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/SectionDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/SectionDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestResultDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestResultDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestResultDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestResultDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Answer.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Answer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Quastion.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Quastion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Role.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Section.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Section.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/TestResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/TestResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/TestState.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/TestState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Theme.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Theme.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/db/schema.sql" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/db/schema.sql" />
     </list>
     <ignored path="spring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,92 +67,7 @@
     <favorites_list name="spring" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TestStateDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="130" selection-end="336" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestStateDAOImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="282" selection-end="359" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestThemeDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="27" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestThemeDAOImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="270" selection-end="347" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDAOImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/UserDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="264" selection-end="264" vertical-scroll-proportion="0.09410289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestResultDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestResultDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="60" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="43" selection-start="120" selection-end="299" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -187,9 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/AnswerDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/AnswerDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/RoleDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/RoleDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestResultDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestResultDAOImpl.java" />
@@ -203,6 +93,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/TestResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Answer.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/db/schema.sql" />
       </list>
     </option>
   </component>
@@ -927,7 +820,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25811687" sideWeight="0.24131945" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14853896" sideWeight="0.5503472" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2562125" sideWeight="0.67995447" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2562125" sideWeight="0.67995447" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32004556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1028,33 +921,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/SectionDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/SectionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="220" selection-end="220" vertical-scroll-proportion="0.24545455">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/RoleDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.32258064">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/RoleDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="34" selection-start="126" selection-end="126" vertical-scroll-proportion="0.1313485">
@@ -1116,15 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="282" selection-end="359" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.settings/org.springframework.ide.eclipse.core.prefs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="121" selection-start="8685" selection-end="8685" vertical-scroll-proportion="0.8941399">
@@ -1132,34 +989,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/TestResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="270" selection-end="347" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+        <state line="18" column="43" selection-start="307" selection-end="307" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="264" selection-end="264" vertical-scroll-proportion="0.09410289">
+        <state line="20" column="50" selection-start="531" selection-end="531" vertical-scroll-proportion="0.28230867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.07220217">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="270" selection-end="347" vertical-scroll-proportion="0.20171149">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="295" selection-end="295" vertical-scroll-proportion="0.23465703">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="63" selection-start="224" selection-end="224" vertical-scroll-proportion="0.16090584">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/domain/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="51" selection-start="31" selection-end="31" vertical-scroll-proportion="0.017605634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/db/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="67" selection-start="3172" selection-end="3172" vertical-scroll-proportion="2.0070422">
           <folding />
         </state>
       </provider>

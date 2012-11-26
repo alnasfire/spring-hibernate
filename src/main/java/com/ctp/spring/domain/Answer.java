@@ -18,7 +18,7 @@ public class Answer {
     private int quastionId;
 
     @Column(name = "state")
-    private boolean state;
+    private int state;
 
     public int getId() {
         return id;
@@ -44,11 +44,11 @@ public class Answer {
         this.quastionId = quastionId;
     }
 
-    public boolean getState() {
+    public int getState() {
         return state;
     }
 
-    public void setState(boolean state) {
+    public void setState(int state) {
         this.state = state;
     }
 }

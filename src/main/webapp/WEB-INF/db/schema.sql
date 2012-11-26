@@ -27,6 +27,7 @@ CREATE TABLE `ctp`.`testresult` (
   `testid` INTEGER  NOT NULL,
   `stateid` INTEGER  NOT NULL,
   `userid` INTEGER  NOT NULL,
+  `date` TEXT NOT NULL,
   PRIMARY KEY (`id`)
 )
 ENGINE = InnoDB;
@@ -66,7 +67,7 @@ CREATE TABLE `ctp`.`answer` (
   `id` INT  NOT NULL AUTO_INCREMENT,
   `value` TEXT  NOT NULL,
   `quastionid` INT  NOT NULL,
-  `state` BOOLEAN  NOT NULL,
+  `state` INT  NOT NULL,
   PRIMARY KEY (`id`)
 )
 ENGINE = InnoDB;
@@ -101,6 +102,37 @@ ALTER TABLE `ctp`.`testresult` ADD CONSTRAINT `rs` FOREIGN KEY `rs` (`stateid`)
     ON DELETE RESTRICT
     ON UPDATE RESTRICT;
 
+ALTER TABLE `ctp`.`answer` CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE `ctp`.`quastion` CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE `ctp`.`test` CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE `ctp`.`role` CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE `ctp`.`testsection` CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE `ctp`.`test` CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE `ctp`.`testresult` CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE `ctp`.`teststate` CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE `ctp`.`testtheme` CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE `ctp`.`user` CHARACTER SET utf8 COLLATE utf8_general_ci;
+
 insert into `role` set `name`='admin';
 insert into `role` set `name`='head';
 insert into `role` set `name`='user';
+
+INSERT INTO `testsection` SET `name`='section1';
+
+INSERT INTO `testtheme` SET `name`='theme1',`sectionid`=1;
+
+INSERT INTO `test` SET `themeid`=1;
+
+insert into quastion set `value`='сколько будет 2 + 2?', `testid`=1;
+
+insert into answer set `value`='1', `quastionid`=2, `state`=0;
+insert into answer set `value`='3', `quastionid`=2, `state`=0;
+insert into answer set `value`='4', `quastionid`=2, `state`=1;
+insert into answer set `value`='5', `quastionid`=2, `state`=0;
+
+insert into quastion set `value`='сколько месяцев в году?', `testid`=1;
+
+insert into answer set `value`='12', `quastionid`=3, `state`=1;
+insert into answer set `value`='13', `quastionid`=3, `state`=0;
+insert into answer set `value`='14', `quastionid`=3, `state`=0;
+insert into answer set `value`='15', `quastionid`=3, `state`=0;

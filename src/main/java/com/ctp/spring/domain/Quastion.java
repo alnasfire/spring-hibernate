@@ -11,10 +11,10 @@ public class Quastion {
     @GeneratedValue
     private int id;
 
-    @Column(name = "quastion")
+    @Column(name = "value")
     private String value;
 
-    @Column(name = "test")
+    @Column(name = "testid")
     private int testId;
 
     public int getTestId() {

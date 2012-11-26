@@ -3,7 +3,7 @@ package com.ctp.spring.domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Answer")
+@Table(name = "answer")
 public class Answer {
 
     @Id
@@ -14,7 +14,7 @@ public class Answer {
     @Column(name = "value")
     private String value;
 
-    @Column(name = "quastion")
+    @Column(name = "quastionid")
     private int quastionId;
 
     @Column(name = "state")

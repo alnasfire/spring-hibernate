@@ -3,7 +3,7 @@ package com.ctp.spring.domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Section")
+@Table(name = "testsection")
 public class Section {
 
     @Id

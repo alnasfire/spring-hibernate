@@ -14,7 +14,7 @@ public class User {
     private String login;
     @Column(name = "password")
     private String password;
-    @Column(name = "role")
+    @Column(name = "roleid")
     private int role = 3;
     @Column(name="email")
     private String email;

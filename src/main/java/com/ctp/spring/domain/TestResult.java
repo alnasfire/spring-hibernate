@@ -3,7 +3,7 @@ package com.ctp.spring.domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "TestResult")
+@Table(name = "testresult")
 public class TestResult {
 
     @Id
@@ -11,11 +11,22 @@ public class TestResult {
     @GeneratedValue
     private int id;
 
-    @Column(name = "test")
+    @Column(name = "testid")
     private int testId;
 
-    @Column(name = "state")
+    @Column(name = "stateid")
     private int stateId;
+
+    @Column(name = "userid")
+    private int userId;
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
 
     public int getId() {
         return id;

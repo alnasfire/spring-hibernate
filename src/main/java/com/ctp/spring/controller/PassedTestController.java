@@ -14,16 +14,16 @@ import java.util.List;
 @Controller
 public class PassedTestController {
 
-    @Autowired
-    TestService testService;
+//    @Autowired
+//    TestService testService;
 
     @RequestMapping(value="/passedtest")
     public ModelAndView test(HttpServletResponse response) throws IOException {
         return new ModelAndView("passedtest");
     }
 
-    @RequestMapping(value="/passedtest")
-    public List<TestResult> getPassedTestsResults(){
-        return null;
-    }
+//    @RequestMapping(value="/passedtest")
+//    public List<TestResult> getPassedTestsResults(){
+//        return null;
+//    }
 }

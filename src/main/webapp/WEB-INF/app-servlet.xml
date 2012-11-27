@@ -8,6 +8,11 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd"
        xmlns:aop="http://www.springframework.org/schema/aop">
 
+    <mvc:annotation-driven />
+    	<mvc:resources mapping="/css/**" location="/WEB-INF/views/css/"/>
+    	    <mvc:resources mapping="/js/**" location="/WEB-INF/views/js/"/>
+    	    <mvc:resources mapping="/images/**" location="/WEB-INF/views/images/"/>
+
     <context:annotation-config/>
     <context:component-scan base-package="com.ctp.spring.controller.*"/>
     <context:component-scan base-package="com.ctp.spring.service.*"/>
@@ -30,5 +35,5 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
         <property name="userService" ref="userServiceImpl"/>
     </bean>
 
-
+    <bean id="home" class="com.ctp.spring.controller.HomeController"/>
 </beans>

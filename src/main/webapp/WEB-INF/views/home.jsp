@@ -7,7 +7,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Home</title>
-    <LINK REL=STYLESHEET HREF="css/style.css" TYPE="text/css">
+    <link rel="stylesheet" href="/css/path_to_css.css">
 </head>
 <body>
 <script type="text/javascript">

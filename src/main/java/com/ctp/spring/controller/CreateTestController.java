@@ -13,44 +13,44 @@ import java.io.IOException;
 @Controller
 public class CreateTestController {
 
-    @Autowired
-    TestService testService;
-    @Autowired
-    TestThemeService themeService;
-    @Autowired
-    SectionService sectionService;
-    @Autowired
-    QuastionService quastionService;
-    @Autowired
-    AnswerService answerService;
+//    @Autowired
+//    TestService testService;
+//    @Autowired
+//    TestThemeService themeService;
+//    @Autowired
+//    SectionService sectionService;
+//    @Autowired
+//    QuastionService quastionService;
+//    @Autowired
+//    AnswerService answerService;
 
     @RequestMapping(value="/createtest")
     public ModelAndView test(HttpServletResponse response) throws IOException {
         return new ModelAndView("createtest");
     }
 
-    @RequestMapping(value="/createtest")
-    public void createNewTest(){
-
-    }
-
-    @RequestMapping(value="/createtest")
-    public void createNewTheme(){
-
-    }
-
-    @RequestMapping(value="/createtest")
-    public void createNewSection(){
-
-    }
-
-    @RequestMapping(value="/createtest")
-    public void createNewQuastion(){
-
-    }
-
-    @RequestMapping(value="/createtest")
-    public void createNewAnswer(){
-
-    }
+//    @RequestMapping(value="/createtest")
+//    public void createNewTest(){
+//
+//    }
+//
+//    @RequestMapping(value="/createtest")
+//    public void createNewTheme(){
+//
+//    }
+//
+//    @RequestMapping(value="/createtest")
+//    public void createNewSection(){
+//
+//    }
+//
+//    @RequestMapping(value="/createtest")
+//    public void createNewQuastion(){
+//
+//    }
+//
+//    @RequestMapping(value="/createtest")
+//    public void createNewAnswer(){
+//
+//    }
 }

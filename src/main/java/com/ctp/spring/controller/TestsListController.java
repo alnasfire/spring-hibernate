@@ -14,16 +14,16 @@ import java.util.List;
 @Controller
 public class TestsListController {
 
-    @Autowired
-    TestService testService;
+//    @Autowired
+//    TestService testService;
 
     @RequestMapping(value="/testslist")
     public ModelAndView test(HttpServletResponse response) throws IOException {
         return new ModelAndView("testslist");
     }
 
-    @RequestMapping(value="/testslist")
-    public List<Test> getAvailableTestList(){
-        return null;
-    }
+//    @RequestMapping(value="/testslist")
+//    public List<Test> getAvailableTestList(){
+//        return null;
+//    }
 }

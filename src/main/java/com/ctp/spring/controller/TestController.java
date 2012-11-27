@@ -12,16 +12,16 @@ import java.io.IOException;
 @Controller
 public class TestController {
 
-    @Autowired
-    TestService testService;
+//    @Autowired
+//    TestService testService;
 
     @RequestMapping(value="/test")
     public ModelAndView test(HttpServletResponse response) throws IOException {
         return new ModelAndView("test");
     }
 
-    @RequestMapping(value="/test")
-    public void makeTest(){
-
-    }
+//    @RequestMapping(value="/test")
+//    public void makeTest(){
+//
+//    }
 }

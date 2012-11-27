@@ -1,13 +1,18 @@
 package com.ctp.spring.service;
 
+import com.ctp.spring.dao.QuastionDAO;
 import com.ctp.spring.domain.Quastion;
-import com.ctp.spring.domain.User;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class QuastionServiceImpl implements QuastionService{
+
+    @Autowired
+    QuastionDAO quastionDAO;
+
     @Override
     public void saveQuastion(Quastion quastion) {
 

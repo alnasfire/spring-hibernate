@@ -1,12 +1,18 @@
 package com.ctp.spring.service;
 
+import com.ctp.spring.dao.TestStateDAO;
 import com.ctp.spring.domain.TestState;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class TestStateServiceImpl implements TestStateService{
+
+    @Autowired
+    TestStateDAO testStateDAO;
+
     @Override
     public void saveTestState(TestState testState) {
 

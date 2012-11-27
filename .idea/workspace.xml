@@ -2,59 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c85b0f8a-12bc-41c1-9a78-21ab74e1d73a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/bg_bottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/bg_btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/bg_head.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/bg_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/bg_menu.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/bg_o.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/clock.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/el_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/el_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/el_2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/el_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/el_3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/el_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/el_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/el_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/menu/collapsed.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/menu/expanded.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/images/spacer.gif" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring.iml" afterPath="$PROJECT_DIR$/spring.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/CreateTestController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/CreateTestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/HomeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/PassedTestController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/PassedTestController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestResultController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestResultController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestsListController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestsListController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/AnswerDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/AnswerDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/QuastionDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/QuastionDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/RoleDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/RoleDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/SectionDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/SectionDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestResultDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestResultDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestStateDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/dao/TestThemeDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/AnswerService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/AnswerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/AnswerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/AnswerServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/QuastionService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/QuastionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/QuastionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/QuastionServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/RoleService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/RoleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/RoleServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestResultService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestResultService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestResultServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestResultServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestThemeService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestThemeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestThemeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestThemeServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/style.css" />
     </list>
     <ignored path="spring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,105 +70,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestServiceImpl.java">
+      <file leaf-file-name="TestsListController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestsListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="20" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestResultServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestResultServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SectionServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/RoleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuastionServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/QuastionServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="19" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnswerServiceImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/AnswerServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.09505703">
+            <state line="17" column="30" selection-start="495" selection-end="534" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestStateServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateServiceImpl.java">
+      <file leaf-file-name="TestResultController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestResultController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestThemeServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestThemeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+            <state line="15" column="36" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/UserServiceImpl.java">
+      <file leaf-file-name="TestController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+            <state line="16" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterUserController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/RegisterUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/ProcController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PassedTestController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/PassedTestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateTestController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/CreateTestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="52" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.85551333">
               <folding />
             </state>
           </provider>
@@ -233,12 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/AnswerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/AnswerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/QuastionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/QuastionServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestResultService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateService.java" />
@@ -249,6 +165,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestResultServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestsListController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestResultController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/PassedTestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/CreateTestController.java" />
       </list>
     </option>
   </component>
@@ -432,6 +354,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1065,95 +1021,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/QuastionService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="58" selection-start="134" selection-end="369" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestResultService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="57" selection-start="138" selection-end="383" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestThemeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.5741446">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/AnswerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+        <state line="35" column="35" selection-start="635" selection-end="635" vertical-scroll-proportion="0.5740741">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestThemeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+        <state line="31" column="20" selection-start="575" selection-end="575" vertical-scroll-proportion="0.5595668">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1162,7 +1046,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestResultServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="434" selection-end="434" vertical-scroll-proportion="0.37906137">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1171,34 +1055,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/SectionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.37906137">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/RoleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestStateServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.3697183">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/QuastionServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/TestThemeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.3697183">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/AnswerServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.09505703">
+        <state line="12" column="13" selection-start="392" selection-end="392" vertical-scroll-proportion="0.08802817">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestsListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="495" selection-end="534" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/ProcController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/PassedTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestResultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="36" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/RegisterUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ctp/spring/controller/CreateTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="52" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.85551333">
           <folding />
         </state>
       </provider>

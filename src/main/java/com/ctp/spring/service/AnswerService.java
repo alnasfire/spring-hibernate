@@ -14,5 +14,5 @@ public interface AnswerService {
 
     public User retriveAnswer(Long id);
 
-    public List<User> findAnswerByTestId(Integer id);
+    public List<Answer> findAnswerByTestId(Integer id);
 }

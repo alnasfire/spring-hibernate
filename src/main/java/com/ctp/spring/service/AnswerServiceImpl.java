@@ -10,26 +10,26 @@ import java.util.List;
 public class AnswerServiceImpl implements AnswerService{
     @Override
     public void saveAnswer(Answer answer) {
-        //To change body of implemented methods use File | Settings | File Templates.
+
     }
 
     @Override
     public List<Answer> answerList() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return null;
     }
 
     @Override
     public void removeAnswer(Long id) {
-        //To change body of implemented methods use File | Settings | File Templates.
+
     }
 
     @Override
     public User retriveAnswer(Long id) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return null;
     }
 
     @Override
-    public List<User> findAnswerByTestId(Integer id) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    public List<Answer> findAnswerByTestId(Integer id) {
+        return null;
     }
 }

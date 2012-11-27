@@ -13,4 +13,9 @@ public class TestResultController {
     public ModelAndView test(HttpServletResponse response) throws IOException {
         return new ModelAndView("testresult");
     }
+
+    @RequestMapping(value="/testresult")
+    public void viewTestResult(){
+
+    }
 }
